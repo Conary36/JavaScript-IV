@@ -45,7 +45,7 @@ class CharacterStats extends GameObject {
 
 //CharacterStats.prototype = Object.create(GameObject.prototype);
 
-takeDamage(remove){
+takeDamage(){
     console.log(`${this.name} took damage`);
     return `${this.name} took damage`;
 }
